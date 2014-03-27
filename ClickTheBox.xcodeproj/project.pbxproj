@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BB68EC18A854610056A62D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB68EB18A854610056A62D /* Foundation.framework */; };
+		08BB68EE18A854610056A62D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB68ED18A854610056A62D /* CoreGraphics.framework */; };
+		08BB68F018A854610056A62D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB68EF18A854610056A62D /* UIKit.framework */; };
+		08BB68F618A854610056A62D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08BB68F418A854610056A62D /* InfoPlist.strings */; };
+		08BB68F818A854610056A62D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BB68F718A854610056A62D /* main.m */; };
+		08BB68FC18A854610056A62D /* DBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BB68FB18A854610056A62D /* DBAppDelegate.m */; };
+		08BB68FF18A854610056A62D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BB68FD18A854610056A62D /* Main_iPhone.storyboard */; };
+		08BB690218A854610056A62D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BB690018A854610056A62D /* Main_iPad.storyboard */; };
+		08BB690518A854610056A62D /* DBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BB690418A854610056A62D /* DBViewController.m */; };
+		08BB690718A854610056A62D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08BB690618A854610056A62D /* Images.xcassets */; };
+		08BB690E18A854610056A62D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB690D18A854610056A62D /* XCTest.framework */; };
+		08BB690F18A854610056A62D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB68EB18A854610056A62D /* Foundation.framework */; };
+		08BB691018A854610056A62D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB68EF18A854610056A62D /* UIKit.framework */; };
+		08BB691818A854610056A62D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08BB691618A854610056A62D /* InfoPlist.strings */; };
+		08BB691A18A854610056A62D /* ClickTheBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BB691918A854610056A62D /* ClickTheBoxTests.m */; };
+		08BB692418A8575D0056A62D /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB692318A8575D0056A62D /* Dropbox.framework */; };
+		08BB692618A857D40056A62D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB692518A857D40056A62D /* CFNetwork.framework */; };
+		08BB692818A857E10056A62D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB692718A857E10056A62D /* Security.framework */; };
+		08BB692A18A857F20056A62D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB692918A857F20056A62D /* SystemConfiguration.framework */; };
+		08BB692C18A857FB0056A62D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB692B18A857FB0056A62D /* QuartzCore.framework */; };
+		08BB692E18A858090056A62D /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BB692D18A858090056A62D /* libc++.dylib */; };
+		4CEC7C7018E351D90025AAC7 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4CEC7C6F18E351D90025AAC7 /* LICENSE.txt */; };
+		4CEC7C7218E354CE0025AAC7 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CEC7C7118E354CE0025AAC7 /* screenshot.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08BB691118A854610056A62D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08BB68E018A854610056A62D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08BB68E718A854610056A62D;
+			remoteInfo = ClickTheBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08BB68E818A854610056A62D /* ClickTheBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickTheBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BB68EB18A854610056A62D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08BB68ED18A854610056A62D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08BB68EF18A854610056A62D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08BB68F318A854610056A62D /* ClickTheBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClickTheBox-Info.plist"; sourceTree = "<group>"; };
+		08BB68F518A854610056A62D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08BB68F718A854610056A62D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08BB68F918A854610056A62D /* ClickTheBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClickTheBox-Prefix.pch"; sourceTree = "<group>"; };
+		08BB68FA18A854610056A62D /* DBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBAppDelegate.h; sourceTree = "<group>"; };
+		08BB68FB18A854610056A62D /* DBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBAppDelegate.m; sourceTree = "<group>"; };
+		08BB68FE18A854610056A62D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		08BB690118A854610056A62D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		08BB690318A854610056A62D /* DBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBViewController.h; sourceTree = "<group>"; };
+		08BB690418A854610056A62D /* DBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBViewController.m; sourceTree = "<group>"; };
+		08BB690618A854610056A62D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08BB690C18A854610056A62D /* ClickTheBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickTheBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BB690D18A854610056A62D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		08BB691518A854610056A62D /* ClickTheBoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClickTheBoxTests-Info.plist"; sourceTree = "<group>"; };
+		08BB691718A854610056A62D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08BB691918A854610056A62D /* ClickTheBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickTheBoxTests.m; sourceTree = "<group>"; };
+		08BB692318A8575D0056A62D /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropbox.framework; sourceTree = "<group>"; };
+		08BB692518A857D40056A62D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		08BB692718A857E10056A62D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		08BB692918A857F20056A62D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		08BB692B18A857FB0056A62D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		08BB692D18A858090056A62D /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		4CEC7C6F18E351D90025AAC7 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = SOURCE_ROOT; };
+		4CEC7C7118E354CE0025AAC7 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08BB68E518A854610056A62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BB692E18A858090056A62D /* libc++.dylib in Frameworks */,
+				08BB692C18A857FB0056A62D /* QuartzCore.framework in Frameworks */,
+				08BB692A18A857F20056A62D /* SystemConfiguration.framework in Frameworks */,
+				08BB692818A857E10056A62D /* Security.framework in Frameworks */,
+				08BB692618A857D40056A62D /* CFNetwork.framework in Frameworks */,
+				08BB68EE18A854610056A62D /* CoreGraphics.framework in Frameworks */,
+				08BB68F018A854610056A62D /* UIKit.framework in Frameworks */,
+				08BB68EC18A854610056A62D /* Foundation.framework in Frameworks */,
+				08BB692418A8575D0056A62D /* Dropbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BB690918A854610056A62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BB690E18A854610056A62D /* XCTest.framework in Frameworks */,
+				08BB691018A854610056A62D /* UIKit.framework in Frameworks */,
+				08BB690F18A854610056A62D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BB68DF18A854610056A62D = {
+			isa = PBXGroup;
+			children = (
+				08BB68F118A854610056A62D /* ClickTheBox */,
+				08BB691318A854610056A62D /* ClickTheBoxTests */,
+				08BB68EA18A854610056A62D /* Frameworks */,
+				08BB68E918A854610056A62D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08BB68E918A854610056A62D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08BB68E818A854610056A62D /* ClickTheBox.app */,
+				08BB690C18A854610056A62D /* ClickTheBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08BB68EA18A854610056A62D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08BB692D18A858090056A62D /* libc++.dylib */,
+				08BB692B18A857FB0056A62D /* QuartzCore.framework */,
+				08BB692918A857F20056A62D /* SystemConfiguration.framework */,
+				08BB692718A857E10056A62D /* Security.framework */,
+				08BB692518A857D40056A62D /* CFNetwork.framework */,
+				08BB68ED18A854610056A62D /* CoreGraphics.framework */,
+				08BB692318A8575D0056A62D /* Dropbox.framework */,
+				08BB68EB18A854610056A62D /* Foundation.framework */,
+				08BB68EF18A854610056A62D /* UIKit.framework */,
+				08BB690D18A854610056A62D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08BB68F118A854610056A62D /* ClickTheBox */ = {
+			isa = PBXGroup;
+			children = (
+				08BB68FA18A854610056A62D /* DBAppDelegate.h */,
+				08BB68FB18A854610056A62D /* DBAppDelegate.m */,
+				08BB68FD18A854610056A62D /* Main_iPhone.storyboard */,
+				08BB690018A854610056A62D /* Main_iPad.storyboard */,
+				08BB690318A854610056A62D /* DBViewController.h */,
+				08BB690418A854610056A62D /* DBViewController.m */,
+				08BB690618A854610056A62D /* Images.xcassets */,
+				08BB68F218A854610056A62D /* Supporting Files */,
+			);
+			path = ClickTheBox;
+			sourceTree = "<group>";
+		};
+		08BB68F218A854610056A62D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08BB68F318A854610056A62D /* ClickTheBox-Info.plist */,
+				08BB68F418A854610056A62D /* InfoPlist.strings */,
+				08BB68F718A854610056A62D /* main.m */,
+				08BB68F918A854610056A62D /* ClickTheBox-Prefix.pch */,
+				4CEC7C6F18E351D90025AAC7 /* LICENSE.txt */,
+				4CEC7C7118E354CE0025AAC7 /* screenshot.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08BB691318A854610056A62D /* ClickTheBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				08BB691918A854610056A62D /* ClickTheBoxTests.m */,
+				08BB691418A854610056A62D /* Supporting Files */,
+			);
+			path = ClickTheBoxTests;
+			sourceTree = "<group>";
+		};
+		08BB691418A854610056A62D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08BB691518A854610056A62D /* ClickTheBoxTests-Info.plist */,
+				08BB691618A854610056A62D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08BB68E718A854610056A62D /* ClickTheBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BB691D18A854610056A62D /* Build configuration list for PBXNativeTarget "ClickTheBox" */;
+			buildPhases = (
+				08BB68E418A854610056A62D /* Sources */,
+				08BB68E518A854610056A62D /* Frameworks */,
+				08BB68E618A854610056A62D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickTheBox;
+			productName = ClickTheBox;
+			productReference = 08BB68E818A854610056A62D /* ClickTheBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08BB690B18A854610056A62D /* ClickTheBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BB692018A854610056A62D /* Build configuration list for PBXNativeTarget "ClickTheBoxTests" */;
+			buildPhases = (
+				08BB690818A854610056A62D /* Sources */,
+				08BB690918A854610056A62D /* Frameworks */,
+				08BB690A18A854610056A62D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08BB691218A854610056A62D /* PBXTargetDependency */,
+			);
+			name = ClickTheBoxTests;
+			productName = ClickTheBoxTests;
+			productReference = 08BB690C18A854610056A62D /* ClickTheBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08BB68E018A854610056A62D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Dropbox;
+				TargetAttributes = {
+					08BB690B18A854610056A62D = {
+						TestTargetID = 08BB68E718A854610056A62D;
+					};
+				};
+			};
+			buildConfigurationList = 08BB68E318A854610056A62D /* Build configuration list for PBXProject "ClickTheBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08BB68DF18A854610056A62D;
+			productRefGroup = 08BB68E918A854610056A62D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08BB68E718A854610056A62D /* ClickTheBox */,
+				08BB690B18A854610056A62D /* ClickTheBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08BB68E618A854610056A62D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BB690218A854610056A62D /* Main_iPad.storyboard in Resources */,
+				4CEC7C7218E354CE0025AAC7 /* screenshot.png in Resources */,
+				08BB690718A854610056A62D /* Images.xcassets in Resources */,
+				08BB68FF18A854610056A62D /* Main_iPhone.storyboard in Resources */,
+				4CEC7C7018E351D90025AAC7 /* LICENSE.txt in Resources */,
+				08BB68F618A854610056A62D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BB690A18A854610056A62D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BB691818A854610056A62D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08BB68E418A854610056A62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BB68FC18A854610056A62D /* DBAppDelegate.m in Sources */,
+				08BB690518A854610056A62D /* DBViewController.m in Sources */,
+				08BB68F818A854610056A62D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BB690818A854610056A62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BB691A18A854610056A62D /* ClickTheBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08BB691218A854610056A62D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08BB68E718A854610056A62D /* ClickTheBox */;
+			targetProxy = 08BB691118A854610056A62D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08BB68F418A854610056A62D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BB68F518A854610056A62D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08BB68FD18A854610056A62D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BB68FE18A854610056A62D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		08BB690018A854610056A62D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BB690118A854610056A62D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		08BB691618A854610056A62D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BB691718A854610056A62D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08BB691B18A854610056A62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08BB691C18A854610056A62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08BB691E18A854610056A62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClickTheBox/ClickTheBox-Prefix.pch";
+				INFOPLIST_FILE = "ClickTheBox/ClickTheBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08BB691F18A854610056A62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClickTheBox/ClickTheBox-Prefix.pch";
+				INFOPLIST_FILE = "ClickTheBox/ClickTheBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		08BB692118A854610056A62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClickTheBox.app/ClickTheBox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClickTheBox/ClickTheBox-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ClickTheBoxTests/ClickTheBoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		08BB692218A854610056A62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClickTheBox.app/ClickTheBox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClickTheBox/ClickTheBox-Prefix.pch";
+				INFOPLIST_FILE = "ClickTheBoxTests/ClickTheBoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08BB68E318A854610056A62D /* Build configuration list for PBXProject "ClickTheBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BB691B18A854610056A62D /* Debug */,
+				08BB691C18A854610056A62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08BB691D18A854610056A62D /* Build configuration list for PBXNativeTarget "ClickTheBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BB691E18A854610056A62D /* Debug */,
+				08BB691F18A854610056A62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08BB692018A854610056A62D /* Build configuration list for PBXNativeTarget "ClickTheBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BB692118A854610056A62D /* Debug */,
+				08BB692218A854610056A62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08BB68E018A854610056A62D /* Project object */;
+}
