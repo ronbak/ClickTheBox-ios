@@ -2,6 +2,8 @@
 
 Simple app for the Dropbox Datastore API that demos game state.
 
+Read more about it on [the Dropbox Developers Blog](https://www.dropbox.com/developers/blog/83/click-the-box-a-cross-platform-open-source-game-using-the-datastore-api).
+
 ![Screenshot](screenshot.png)
 
 ### All versions
