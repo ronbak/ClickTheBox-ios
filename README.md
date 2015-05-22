@@ -1,3 +1,5 @@
+**Update: The Datastore API has been deprecated. [Learn more.](https://blogs.dropbox.com/developers/2015/04/deprecating-the-sync-and-datastore-apis/)**
+
 # Click The Box
 
 Simple app for the Dropbox Datastore API that demos game state.
