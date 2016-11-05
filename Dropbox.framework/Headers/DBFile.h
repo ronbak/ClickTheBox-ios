@@ -64,7 +64,7 @@
 /** Appends the UTF8 encoded string to the file. If the file is not cached, then the method will
  block until the file is downloaded.
 
- @return YES if the string was appended to the file successfully, or NO if an error occured.
+ @return YES if the string was appended to the file successfully, or NO if an error occurred.
  */
 - (BOOL)appendString:(NSString *)string error:(DBError **)error;
 
